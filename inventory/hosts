@@ -1,14 +1,14 @@
-[ipaclients]
-ipaclient1.mine.dom
+#[ipaclients]
+#ipaclient1.mine.dom
 #ipaclient2.mine.dom
 #ipaclient3.mine.dom
 #ipaclient4.mine.dom
 #ipaclient5.mine.dom
-ipaclient6.mine.dom
-ipaclient7.mine.dom
+#ipaclient6.mine.dom
+#ipaclient7.mine.dom
 
-#[ipaservers]
-#ipa.mine.dom
+[ipaservers]
+127.0.0.1
 
 [ipaclients:vars]
 #ipaclient_keytab=/tmp/krb5.keytab
